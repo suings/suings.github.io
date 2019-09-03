@@ -368,9 +368,6 @@ a {
 .sidebar .bottom-container .site-description {
   padding: 16px 0;
 }
-.sidebar .bottom-container a {
-  color: #fff;
-}
 .main-container {
   margin-left: 320px;
 }
@@ -620,7 +617,7 @@ a {
 @media (max-width: 800px) {
   .sidebar {
     position: relative;
-    width: 100% !important;
+    width: 100%;
     height: 80px;
     overflow: hidden;
     transition: height 0.382s ease-in-out;
@@ -690,7 +687,7 @@ a {
     font-size: 18px;
   }
   .main-container {
-    margin-left: 0 !important;
+    margin-left: 0;
   }
   .content-container {
     padding: 32px 16px;
@@ -745,9 +742,4 @@ a {
   .tag:hover {
     transform: translateY(0px);
   }
-}
-.social-container .social-link {
-  color: #dee2e6;
-  font-size: 16px;
-  margin: 4px 8px;
 }

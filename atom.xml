@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://suings.github.io</id>
+    <id>https://g.yangtzeu.fun</id>
     <title>无名</title>
-    <updated>2019-09-03T14:32:52.958Z</updated>
+    <updated>2019-09-03T14:35:41.958Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://suings.github.io"/>
-    <link rel="self" href="https://suings.github.io/atom.xml"/>
+    <link rel="alternate" href="https://g.yangtzeu.fun"/>
+    <link rel="self" href="https://g.yangtzeu.fun/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://suings.github.io/images/avatar.png</logo>
-    <icon>https://suings.github.io/favicon.ico</icon>
+    <logo>https://g.yangtzeu.fun/images/avatar.png</logo>
+    <icon>https://g.yangtzeu.fun/favicon.ico</icon>
     <rights>All rights reserved 2019, 无名</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://suings.github.io/post/hello-gridea</id>
-        <link href="https://suings.github.io/post/hello-gridea">
+        <id>https://g.yangtzeu.fun/post/hello-gridea</id>
+        <link href="https://g.yangtzeu.fun/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>

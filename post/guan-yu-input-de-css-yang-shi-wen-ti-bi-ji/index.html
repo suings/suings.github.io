@@ -1,10 +1,11 @@
 
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>无名</title>
+<title>关于input的css样式问题(笔记) | 无名</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -77,63 +78,54 @@
 
 
       <div class="content-container">
-        
-        
-<section class="post-item">
-    <div class="content">
-      <a href="http://www.yangtzeu.fun/post/guan-yu-input-de-css-yang-shi-wen-ti-bi-ji">
-        <h2 class="post-title">关于input的css样式问题(笔记)</h2>
-      </a>
-      <div class="post-abstract">
-        <ul>
+        <div class="post-detail">
+          
+          <h2 class="post-title">关于input的css样式问题(笔记)</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-09-28</span>
+            
+          </div>
+          <div class="post-content">
+            <ul>
 <li>如何去除chrome等自动填充时的黄色背景以及边框(轮廓)</li>
 </ul>
+<!-- more -->
+<h2 id="chrome等自动填充时的黄色背景">chrome等自动填充时的黄色背景</h2>
+<pre><code class="language-css">/* input:focus, */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #f2f3f7 inset;
+    /* 改变黄色背景为指定演示 */
+    -webkit-text-fill-color: #000;
+    /* 改变字体颜色 */
+}
+</code></pre>
+<h2 id="自动填充或点击输入时的黄色边框轮廓">自动填充或点击输入时的黄色边框(轮廓)</h2>
+<p>实际上是outline轮廓,而不是边框,更改轮廓样式即可。<br>
+<code>它是一个outline，而不是边框。您看到的特定样式在用户代理(浏览器)样式表中定义。</code></p>
+<pre><code class="language-css">/* 去除轮廓 */
+input[type=&quot;tel&quot;],
+input[type=&quot;password&quot;] {
+		outline: none;
+}
+</code></pre>
 
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-09-28</span>
+          </div>
+        </div>
+
         
+          <div class="next-post">
+            <a class="purple-link" href="http://www.yangtzeu.fun/post/hello-gridea">
+              <h3 class="post-title">
+                下一篇：Hello Gridea
+              </h3>
+            </a>
+          </div>
+          
       </div>
-    </div>
-    
-  </section>
 
-<section class="post-item">
-    <div class="content">
-      <a href="http://www.yangtzeu.fun/post/hello-gridea">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2018-12-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="http://www.yangtzeu.fun/tag/ZW_Xjtk1O">
-                Gridea
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
+      
 
       <div class="site-footer">
   <div class="slogan">温故而知新</div>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://www.yangtzeu.fun</id>
     <title>无名</title>
-    <updated>2019-09-18T10:55:39.771Z</updated>
+    <updated>2019-09-29T04:35:52.871Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://www.yangtzeu.fun"/>
     <link rel="self" href="http://www.yangtzeu.fun/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>http://www.yangtzeu.fun/images/avatar.png</logo>
     <icon>http://www.yangtzeu.fun/favicon.ico</icon>
     <rights>All rights reserved 2019, 无名</rights>
+    <entry>
+        <title type="html"><![CDATA[关于input的css样式问题(笔记)]]></title>
+        <id>http://www.yangtzeu.fun/post/guan-yu-input-de-css-yang-shi-wen-ti-bi-ji</id>
+        <link href="http://www.yangtzeu.fun/post/guan-yu-input-de-css-yang-shi-wen-ti-bi-ji">
+        </link>
+        <updated>2019-09-28T13:55:18.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>如何去除chrome等自动填充时的黄色背景以及边框(轮廓)</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>如何去除chrome等自动填充时的黄色背景以及边框(轮廓)</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>http://www.yangtzeu.fun/post/hello-gridea</id>
